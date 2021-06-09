@@ -1,5 +1,5 @@
 {% set name = "zxpy" %}
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zxpy-{{ version }}.tar.gz
-  sha256: 2bc3c09ba2a578d5fc30073c8baa394491b0c390791e7f24f77a0d4e2205de87
+  sha256: c24f0853886da873fb179dd5457fb83d46df820a1f062d19e57a3eae2c394ff9
 
 build:
   number: 0
