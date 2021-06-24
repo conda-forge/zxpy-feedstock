@@ -15,6 +15,7 @@ build:
   entry_points:
     - zxpy=zx:cli
   script: {{ PYTHON }} -m pip install . -vv
+  skip: true  # [py<38]
 
 requirements:
   host:
