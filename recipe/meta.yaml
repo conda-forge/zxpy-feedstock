@@ -11,7 +11,7 @@ source:
   sha256: 63f5d612c9081169fec0da6e1269abb932c244a01f29791e4770d6d90d989aff
 
 build:
-  number: 1
+  number: 2
   entry_points:
     - zxpy=zx:cli
   script: {{ PYTHON }} -m pip install . -vv
