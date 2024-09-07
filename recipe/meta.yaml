@@ -1,5 +1,5 @@
 {% set name = "zxpy" %}
-{% set version = "1.6.3" %}
+{% set version = "1.6.4" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zxpy-{{ version }}.tar.gz
-  sha256: 7979affbb4b27c43274e113dac143be3538882268f6d52f2fe016d7adb284cfb
+  sha256: e510f06f791a53b3462628c99438e2f4a5038c12291002b48db2ba87cd088bbb
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - zxpy=zx:cli
   script: {{ PYTHON }} -m pip install . -vv
@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - pyreadline3  # [win]
     - python
