@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - pyreadline3  # [win]
     - python
